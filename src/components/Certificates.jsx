@@ -41,14 +41,31 @@ function Certificates() {
       <Card className="certificate">
         <Card.Img
           variant="top"
-          src="myResume\public\assets"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/IBM-Resume.jpg"
         />
         <Card.Body>
           <Card.Title>
             <b>IBM Data Analyst Specialization</b>
           </Card.Title>
           <Card.Text>
-            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-5e512ecd-06c6-4496-9634-f8f3e6f76163.jpg?v=1706428109000">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/74UVYDB8MYT8">
+              Certificate Link
+            </a>
+          </Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className="certificate">
+        <Card.Img
+          variant="top"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/UCDavis-Resume.jpg"
+        />
+        <Card.Body>
+          <Card.Title>
+            <b>Introduction to Web Development</b>
+          </Card.Title>
+          <Card.Text>
+            <a href="https://www.coursera.org/account/accomplishments/verify/LBL82RJN3Y5X">
               Certificate Link
             </a>
           </Card.Text>
