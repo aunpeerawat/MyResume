@@ -11,7 +11,7 @@ function Profile() {
         height="180"
         id="profileSection"
       />
-      <h1 className="display-5 fw-bold mb-3">My Profile</h1>
+      <h1 className="display-6 fw-bold mb-3">My Profile</h1>
 
       <div className="col-lg-6 mx-auto">
         <ul className="no-bullets h4">

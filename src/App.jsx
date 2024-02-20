@@ -4,6 +4,7 @@ import NavScroll from "./components/NavScroll";
 import Profile from "./components/Profile";
 import Skills from "./components/Skills";
 import Certificates from "./components/Certificates";
+import Activities from "./components/Activities";
 function App() {
   return (
     <div className="container-fluid">
@@ -12,6 +13,7 @@ function App() {
       <Profile />
       <Skills />
       <Certificates />
+      <Activities />
       </div>
   );
 }

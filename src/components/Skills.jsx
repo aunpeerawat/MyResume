@@ -7,17 +7,11 @@ function Skills() {
     <div className="container-fluid ">
       <Badge
         bg=""
-        style={{
-          fontSize: "30px",
-          backgroundColor: "#2A1B0E",
-          padding: "10px 10px 10px 30px",
-          marginBottom: "10px",
-          alignItems: "center",
-        }}
-        className="d-flex "
+        
+        className="d-flex section-topic"
         id="skillsSection"
       >
-        <text>Skills</text>
+        <text className="">Skills</text>
       </Badge>
       <Stack
         direction="horizontal"

@@ -6,17 +6,14 @@ import Card from "react-bootstrap/Card";
 
 function Certificates() {
   return (
-    <div>
+    <div className="container-fluid mb-4">
       <Badge
         bg=""
         style={{
-          fontSize: "30px",
-          backgroundColor: "#2A1B0E",
-          marginBottom: "10px",
           display: "flex",
-          alignItems: "center",
-          padding: "10px 10px 10px 30px",
         }}
+        className="section-topic"
+        id="certificateSection"
       >
         Certificates
       </Badge>
@@ -55,6 +52,22 @@ function Certificates() {
         </Card.Body>
       </Card>
 
+      <Card className="certificate">
+        <Card.Img
+          variant="top"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/UCDavis-Resume.jpg"
+        />
+        <Card.Body>
+          <Card.Title>
+            <b>Introduction to Web Development</b>
+          </Card.Title>
+          <Card.Text>
+            <a href="https://www.coursera.org/account/accomplishments/verify/LBL82RJN3Y5X">
+              Certificate Link
+            </a>
+          </Card.Text>
+        </Card.Body>
+      </Card>
       <Card className="certificate">
         <Card.Img
           variant="top"

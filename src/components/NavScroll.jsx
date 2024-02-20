@@ -32,6 +32,13 @@ function NavScroll() {
             <Nav.Link href="#action2">
               <ScrollButton name="Skills" id="skillsTopic" to="skillsSection" />{" "}
             </Nav.Link>
+            <Nav.Link href="#action3">
+              <ScrollButton
+                name="Certificates"
+                id="certificateTopic"
+                to="certificateSection"
+              />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       
