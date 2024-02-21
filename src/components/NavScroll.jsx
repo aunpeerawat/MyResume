@@ -10,7 +10,7 @@ function NavScroll() {
         <Navbar.Brand>
           <div className="menu">
             <MenuBookIcon style={{ marginRight: "8px" }} />
-            <h2 className="fw-bold">Menu</h2>
+            <h3 className="fw-bold">Menu</h3>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle  className="" aria-controls="navbarScroll" />

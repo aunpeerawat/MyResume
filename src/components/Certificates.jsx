@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 function Certificates() {
   return (
-    <div className="container-fluid mb-4">
+    <div className="container-fluid mb-4 certificate-element">
       <Badge
         bg=""
         style={{
@@ -22,7 +22,7 @@ function Certificates() {
           src="https://udemy-certificate.s3.amazonaws.com/image/UC-5e512ecd-06c6-4496-9634-f8f3e6f76163.jpg?v=1706428109000"
         />
         <Card.Body>
-          <Card.Title>
+          <Card.Title className="card-title">
             <b>The Complete 2024 Web Development Bootcamp</b>
           </Card.Title>
           <Card.Text>

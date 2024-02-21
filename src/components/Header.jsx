@@ -6,10 +6,10 @@ function Header() {
   return (
     <div>
       <header>
-        <h1 className="fw-bold">
+        <h2 className="fw-bold heading">
           <FaceIcon fontSize="large" className="ms-3" sx={{ color: "white" }} />
           &nbsp; My Resume
-        </h1>
+        </h2>
       </header>
     </div>
   );

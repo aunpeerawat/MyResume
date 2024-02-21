@@ -12,7 +12,7 @@ function ScrollButton(params) {
       duration={500}
       id={params.id}
     >
-      <button type="button" class="btn btn-secondary my-button toggle-button ms-1 " style={{fontSize:"20px"}}>
+      <button type="button" class="btn btn-secondary my-button toggle-button ms-1 " style={{fontSize:"16px",fontWeight:"bold"}}>
         {params.name}
       </button>
     </Link>

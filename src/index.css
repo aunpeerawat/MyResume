@@ -15,15 +15,15 @@ body {
 header {
   background-color: #706233;
   margin: auto ;
-  padding-top: 16px ;
-  padding-bottom: 16px; 
+  padding-top: 10px ;
+  padding-bottom: 10px; 
 }
 
 .navbar {
-  padding: 0px auto;
+  padding: 0px;
   background-color: #b0926a;
 }
-header h1 {
+.heading {
   color: white;
 }
 .menu {
@@ -68,6 +68,7 @@ ul.no-bullets {
 .skill-element{
   font-size: 18px;
   background-color: #706233;
+  font-weight: lighter;
   /* fontSize: "16px", backgroundColor: "#706233" */
 }
 .group-certificate{
@@ -97,4 +98,13 @@ ul.no-bullets {
 .code-experience{
   width: 286.72px;
   height: 221.55px;
+}
+.certificate-element{
+  font-size: 18px;
+}
+.card-title{
+  font-size: 1.18rem;
+}
+.carousel-caption{
+  font-weight: bold;
 }

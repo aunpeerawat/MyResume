@@ -7,6 +7,7 @@ import Certificates from "./components/Certificates";
 import Activities from "./components/Activities";
 import CodeExperience from "./components/CodeExperience";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="container-fluid">
@@ -18,6 +19,7 @@ function App() {
       <Certificates />
       <Projects />
       <Activities />
+      <Footer />
       </div>
   );
 }

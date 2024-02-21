@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 function Projects() {
   return (
-    <div className="container-fluid mb-4">
+    <div className="container-fluid mb-4 certificate-element">
       <Badge
         bg=""
         style={{
