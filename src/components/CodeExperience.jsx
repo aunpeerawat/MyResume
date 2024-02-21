@@ -5,10 +5,14 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function CodeExperience(){
     const [index, setIndex] = useState(0);
+    const [indexTwo, setIndexTwo] = useState(0);
 
     const handleSelect = (selectedIndex) => {
       setIndex(selectedIndex);
     };
+    const handleSelectTwo = (selectedIndex) =>{
+      setIndexTwo(selectedIndex);
+    }
 
     return (<div className="container-fluid mb-4">
     <Badge
@@ -70,7 +74,7 @@ function CodeExperience(){
       </Card.Body>
     </Card>
     <Card className="certificate" >
-    <Carousel activeIndex={index} onSelect={handleSelect} className="mx-auto">
+    <Carousel activeIndex={indexTwo} onSelect={handleSelectTwo} className="mx-auto">
     <Carousel.Item >
       <img
           className="d-block w-100 code-experience"

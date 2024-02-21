@@ -27,11 +27,11 @@ function NavScroll() {
                 to="profileSection"
               />
             </Nav.Link>
-            <Nav.Link href="#action1.5">
-              <ScrollButton name="Code-Experiences" id="code-exTopic" to="code-exSection" />{" "}
-            </Nav.Link>
             <Nav.Link href="#action2">
               <ScrollButton name="Skills" id="skillsTopic" to="skillsSection" />{" "}
+            </Nav.Link>
+            <Nav.Link href="#action2.5">
+              <ScrollButton name="Code-Experiences" id="code-exTopic" to="code-exSection" />{" "}
             </Nav.Link>
             <Nav.Link href="#action3">
               <ScrollButton
