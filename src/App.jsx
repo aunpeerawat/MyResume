@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Skills from "./components/Skills";
 import Certificates from "./components/Certificates";
 import Activities from "./components/Activities";
+import CodeExperience from "./components/CodeExperience";
 function App() {
   return (
     <div className="container-fluid">
@@ -12,6 +13,7 @@ function App() {
       <NavScroll />
       <Profile />
       <Skills />
+      <CodeExperience />
       <Certificates />
       <Activities />
       </div>

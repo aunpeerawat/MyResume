@@ -1,7 +1,5 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
 import Badge from "react-bootstrap/Badge";
-import Stack from "react-bootstrap/Stack";
 import Card from "react-bootstrap/Card";
 
 function Certificates() {
