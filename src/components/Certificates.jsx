@@ -20,6 +20,7 @@ function Certificates() {
         <Card.Img
           variant="top"
           src="https://udemy-certificate.s3.amazonaws.com/image/UC-5e512ecd-06c6-4496-9634-f8f3e6f76163.jpg?v=1706428109000"
+          style={{height:"221.55px",width:"100%"}}
         />
         <Card.Body>
           <Card.Title className="card-title">
