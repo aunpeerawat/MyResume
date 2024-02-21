@@ -19,7 +19,7 @@ function Projects() {
       <Card className="certificate" >
         <Card.Img
           variant="top"
-          src=""
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/discount-module.png"
         />
         <Card.Body>
           <Card.Title>

@@ -1,7 +1,5 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Button from "react-bootstrap/Button";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import ScrollButton from "./ScrollButton";
 
@@ -9,7 +7,7 @@ function NavScroll() {
   return (<div className="">
     <Navbar expand="lg" className="navbar " data-bs-theme="light">
       
-        <Navbar.Brand href="#">
+        <Navbar.Brand>
           <div className="menu">
             <MenuBookIcon style={{ marginRight: "8px" }} />
             <h2 className="fw-bold">Menu</h2>
@@ -40,6 +38,12 @@ function NavScroll() {
                 name="Certificates"
                 id="certificateTopic"
                 to="certificateSection"
+              /></Nav.Link>
+            <Nav.Link href="#action3.5">
+              <ScrollButton
+                name="Projects"
+                id="projectTopic"
+                to="projectSection"
               />
             </Nav.Link>
             <Nav.Link href="#action4">
