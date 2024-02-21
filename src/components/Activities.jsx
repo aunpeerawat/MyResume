@@ -1,9 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import Badge from "react-bootstrap/Badge";
 import Carousel from 'react-bootstrap/Carousel';
-import Card from "react-bootstrap/Card";
 function Activities(){
+    const [index, setIndex] = useState(0);
 
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
 
     return(<div className="container-fluid mb-4">
     <Badge
@@ -16,28 +19,89 @@ function Activities(){
     >
       Activities
     </Badge>
-    <div className="group-certificate d-flex flex-wrap gap-3">
-    <Card className="certificate" >
-      <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block"
-          src="holder.js/800x400?text=First slide&bg=f5f5f5"
+
+    <Carousel activeIndex={index} onSelect={handleSelect} className="col-md-10 col-lg-6 mx-auto">
+    <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/LINE_ALBUM_Stage%20Actor%20%20FE%20Camp_2306042.jpg"
           alt="First slide"
-        /></Carousel.Item>
-      </Carousel>
-      <Card.Body>
-        <Card.Title>
-          <b>The Complete 2024 Web Development Bootcamp</b>
-        </Card.Title>
-        <Card.Text>
-          <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-5e512ecd-06c6-4496-9634-f8f3e6f76163.jpg?v=1706428109000">
-            Certificate Link
-          </a>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </div>
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>13th FE Camp (Stage Performer)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/LINE_ALBUM_Stage%20Actor%20%20FE%20Camp_230604.jpg"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>13th FE Camp (Stage Performer)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/MVCUCAMP-75.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>6th CU Movie Camp (Performer)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/MVCUCAMP-95.jpg"
+          alt="Fourth slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>6th CU Movie Camp (Performer)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/83773227_10158135284977425_5045967380249837568_n.jpg"
+          alt="Fifth slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>19th Larngear Camp (Staff)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/83944417_10158135271257425_8824958908993896448_n.jpg"
+          alt="Sixth slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>19th Larngear Camp (Staff)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/LINE_ALBUM_____230604.jpg"
+          alt="Seventh slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>Taekwondo Club (Member)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item >
+      <img
+          className="d-block w-100 mt-3"
+          src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/activities/LINE_ALBUM_1092562%20BE_230604.jpg"
+          alt="Eight slide"
+        />
+        <Carousel.Caption>
+          <h3 style={{color:"white", WebkitTextStroke:"1px black"}}>Taekwondo Club (Member)</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
     </div>
     );
 }

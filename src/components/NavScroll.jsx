@@ -39,6 +39,13 @@ function NavScroll() {
                 to="certificateSection"
               />
             </Nav.Link>
+            <Nav.Link href="#action4">
+              <ScrollButton
+                name="Activities"
+                id="activityTopic"
+                to="activitySection"
+              />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       

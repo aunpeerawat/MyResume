@@ -11,7 +11,7 @@ function Skills() {
         className="d-flex section-topic"
         id="skillsSection"
       >
-        <text className="">Skills</text>
+        Skills
       </Badge>
       <Stack
         direction="horizontal"
