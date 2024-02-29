@@ -20,6 +20,7 @@ function Projects() {
         <Card.Img
           variant="top"
           src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/Project-Resume.png"
+          style={{ width: '286.4px', height: '179px' }}
         />
         <Card.Body>
           <Card.Title>
@@ -59,6 +60,7 @@ function Projects() {
         <Card.Img
           variant="top"
           src="https://raw.githubusercontent.com/aunpeerawat/myresume/main/public/assets/Favorite-Pokemon.png"
+          style={{ width: '286.4px', height: '179px' }}
         />
         <Card.Body>
           <Card.Title>
