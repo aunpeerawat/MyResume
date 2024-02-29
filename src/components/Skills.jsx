@@ -64,6 +64,12 @@ function Skills() {
         <Badge bg=""  className="skill-element">
           Bootstrap
         </Badge>
+        <Badge bg=""  className="skill-element">
+          Tailwind CSS
+        </Badge>
+        <Badge bg=""  className="skill-element">
+          RESTful API
+        </Badge>
       </Stack>
       <Badge
         bg=""
@@ -115,3 +121,5 @@ function Skills() {
 }
 
 export default Skills;
+
+//skills
